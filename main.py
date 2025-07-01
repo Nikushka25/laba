@@ -1,18 +1,40 @@
-# This is a sample Python script.
+# Объявление переменных
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+a = int(input("Введите 1-е число"))
+b = int(input("Введите 2-е число"))
+
+# Нахождение суммы чисел
+
+sum = a+b
+print("Сумма: ", sum)
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+# Проверка 1-го сичла на четность/нечетность
+
+if a%2 == 0:
+    print("1-е число чётное")
+else:
+    print("1-е число нечётное")
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+# Проверка 2-го сичла на четность/нечетность
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+if b%2 == 0:
+    print("2-е число чётное")
+else:
+    print("2-е число нечётное")
 
-print(":D")
+
+# Проверка на кратность 4-м 1-го числа
+
+if a%4 == 0:
+    print("1-е число кратно 4-м")
+else:
+    print("1-е число не кратно 4-м")
+
+    # Проверка на кратность 6-ти 2-го числа
+
+if b%6 == 0:
+    print("2-е число кратно 6-ти")
+else:
+    print("2-е число не кратно 6-ти")
